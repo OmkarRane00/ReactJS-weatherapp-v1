@@ -1,0 +1,29 @@
+.waiting-main{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wait-icon{
+    width: 30%;
+    height: 30vh;
+    background-image: url('./gifs/cloud_load.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.wait-heading{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+.wait-details{
+    width: 50%;
+    color: #555555;
+    font-size: 16px;
+    margin: 50px 0px;
+}

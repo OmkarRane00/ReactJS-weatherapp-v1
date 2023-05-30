@@ -1,0 +1,125 @@
+.data-panel{
+    border-radius: 50px;
+    display: flex;
+    color: white;
+}
+.panel{
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.p-left{
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("./backgrounds/thunderstorm.jpg");
+    background-size: cover;
+    
+}
+.img-name{
+    display: none;
+}
+.p-right div{
+    width: 100%;
+    /* border: 1px solid white; */
+    min-height: 20px;
+}
+.searchcity{
+    height: 15%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.searchcity input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 70%;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+}
+.searchcity i{
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    color: #cccccc;
+    transition: 0.2s ease;
+}
+.searchcity i:hover{
+    color: white;
+}
+.w-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.w-icon i{
+    font-size: 120px;
+    color: white;
+}
+.w-icon span{
+    font-size: 60px;
+    font-weight: 600;
+}
+.detail-info{
+    box-sizing: border-box;
+    padding: 0% 15%;
+    margin-top: 10%;
+}
+.indi-info{
+    padding: 0 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-top: 5%;
+}
+.location-big{
+    width: 100%;
+    /* border: 1px solid; */
+    margin-top: 20px;
+}
+.location-big div{
+    font-size: 50px;
+    text-align: right;
+    /* padding: px; */
+    padding-right: 40px;
+}
+.left-bottom{
+    display: flex;
+}
+.datetime{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 30px;
+    padding-bottom: 20px;
+        
+}
+.date{
+    font-size: 25px;
+}
+.time{
+    font-size: 35px;
+}
+.time span{
+    font-size: 30px;
+}
+.temp{
+    width: 50%;
+    font-size: 110px;
+    text-align: right;
+    padding-right: 30px;
+    font-weight: 600;
+    margin-bottom: -30px;
+}
+.temp span{
+    font-size: 150px;
+    
+}

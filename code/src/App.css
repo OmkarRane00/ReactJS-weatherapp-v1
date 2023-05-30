@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+}
+.copyright{
+    color: white;
+    margin-top: 30px;
+}
