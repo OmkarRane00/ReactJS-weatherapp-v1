@@ -1,4 +1,4 @@
-# ReactJS-weatherapp-v1.0
+# ReactJS-weatherapp-v1
 This is a Weather app made completely in React JS. This has features such as showing time, date, temperature, wind speed,etc. You can check the project by viewing the link below
 
 [View project here](https://omkarrane00.github.io/ReactJS-weatherapp-v1)
